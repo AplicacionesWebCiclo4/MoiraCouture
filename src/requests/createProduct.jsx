@@ -4,7 +4,7 @@ async function createProduct(product,token) {
 
     let { data } = await axios({
         method: 'post',
-        baseURL: 'https://moiracoutureback-production.up.railway.app/api/products',
+        baseURL: 'https://moiracouture-api.vercel.app/api/products',
         headers: {
             Authorization:`Bearer ${token}`  
         },

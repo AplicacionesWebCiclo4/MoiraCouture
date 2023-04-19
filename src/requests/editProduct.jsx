@@ -4,7 +4,7 @@ async function editProduct(product, token, id) {
 
     let { data } = await axios({
         method: 'put',
-        baseURL: `https://moiracoutureback-production.up.railway.app/api/products/${id}`,
+        baseURL: `https://moiracouture-api.vercel.app/api/products/${id}`,
         headers: {
             Authorization: `Bearer ${token}`
         },

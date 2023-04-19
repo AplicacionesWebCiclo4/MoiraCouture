@@ -4,7 +4,7 @@ async function login(user) {
 
     let { data } = await axios({
         method: 'post',
-        baseURL: 'https://moiracoutureback-production.up.railway.app/api/login',
+        baseURL: 'https://moiracouture-api.vercel.app/api/login',
         data: user
 
     })

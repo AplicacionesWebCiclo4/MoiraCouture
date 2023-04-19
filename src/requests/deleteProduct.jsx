@@ -3,7 +3,7 @@ import axios from 'axios';
 async function DeleteProduct(id,token) {
     let res = await axios({
         method: 'delete',
-        baseURL: `https://moiracoutureback-production.up.railway.app/api/products/${id}`,
+        baseURL: `https://moiracouture-api.vercel.app/api/products/${id}`,
         headers: {
             Authorization: `Bearer ${token}`
         }

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 async function getAllProducts() {
 
-    let { data } = await axios.get('https://moiracoutureback-production.up.railway.app/api/products');
+    let { data } = await axios.get('https://moiracouture-api.vercel.app/api/products');
 
     return data
 }

@@ -4,9 +4,8 @@ async function createUser(user) {
 
     let { data } = await axios({
         method: 'post',
-        baseURL: 'https://moiracoutureback-production.up.railway.app/api/users',
+        baseURL: 'https://moiracouture-api.vercel.app/api/users',
         data: user
-
     })
 
     return data
